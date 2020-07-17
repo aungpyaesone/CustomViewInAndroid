@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.padcmyanmar.padcx.padc_x_recyclerview_ypst.veiws.viewpods.ReactionViewPods xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.mmtextview.components.MMTextView
+        android:id="@+id/tvLikedUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/like_count"
+        android:gravity="center"
+        android:textSize="@dimen/text_regular"
+        android:drawablePadding="@dimen/margin_medium"
+        android:textColor="@color/colorTextPrimary"
+        android:drawableTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_baseline_thumb_up_24"
+        />
+
+    <org.mmtextview.components.MMTextView
+        android:id="@+id/tvCommentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comment_count"
+        android:gravity="center"
+        android:textSize="@dimen/text_regular"
+        android:drawablePadding="@dimen/margin_medium"
+        android:layout_toStartOf="@id/tvShareUser"
+        android:layout_marginEnd="@dimen/margin_card_medium_2"
+        android:textColor="@color/colorTextPrimary"
+        android:drawableTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_baseline_message_24"
+        />
+
+    <org.mmtextview.components.MMTextView
+        android:id="@+id/tvShareUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_count"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/text_regular"
+        android:drawablePadding="@dimen/margin_medium"
+        android:textColor="@color/colorTextPrimary"
+        android:drawableTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_baseline_share_24"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLikedUser"
+        android:layout_marginTop="@dimen/margin_large"
+        android:orientation="horizontal">
+
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="@string/like"
+            android:gravity="center"
+            android:textSize="@dimen/text_regular"
+            android:drawablePadding="@dimen/margin_medium"
+            android:textColor="@color/colorTextPrimary"
+            android:drawableLeft="@drawable/ic_baseline_thumb_up_24"
+            />
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="@string/comment"
+            android:gravity="center"
+            android:textSize="@dimen/text_regular"
+            android:drawablePadding="@dimen/margin_medium"
+            android:textColor="@color/colorTextPrimary"
+            android:drawableLeft="@drawable/ic_baseline_message_24"
+            />
+
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="@string/share"
+            android:gravity="center"
+            android:textSize="@dimen/text_regular"
+            android:drawablePadding="@dimen/margin_medium"
+            android:textColor="@color/colorTextPrimary"
+            android:drawableLeft="@drawable/ic_baseline_share_24"
+            />
+
+    </LinearLayout>
+
+</com.padcmyanmar.padcx.padc_x_recyclerview_ypst.veiws.viewpods.ReactionViewPods>
