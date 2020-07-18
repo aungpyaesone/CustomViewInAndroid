@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PADC-X-RecyclerView-YPST.iml" filepath="$PROJECT_DIR$/.idea/modules/PADC-X-RecyclerView-YPST.iml" group="PADC-X-RecyclerView-YPST" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PADC-X-RecyclerView-YPST-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PADC-X-RecyclerView-YPST-app.iml" group="PADC-X-RecyclerView-YPST/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="PADC-X-RecyclerView-YPST/app" />
     </modules>
   </component>
